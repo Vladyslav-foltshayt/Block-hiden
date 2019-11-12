@@ -1,0 +1,34 @@
+.a{
+    width:500px;
+    height:250px;
+    background-color: blue;
+    margin-bottom: 200px;
+}
+
+
+.b{    
+    padding-top: 500px;
+    height:0;   
+    width: 500px;   
+    margin-top: -500px;
+   overflow: hidden;
+}
+.c{
+    width:100%;
+    height:200px;    
+    background-color: yellow;   
+    padding: 20px; 
+}
+.b:hover{
+  height: 2000px;;
+  
+}
+.c div:hover{
+    background: rgba(144, 87, 87, 0.734)
+    
+ 
+}
+
+.c div:not(:first-child){
+    margin-top: 30px;
+}
